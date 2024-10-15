@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuaca Jakarta dengan WeatherAPI</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .weather-info {
+            margin-bottom: 20px;
+        }
+        .forecast {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .day {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cuaca di Bogor</h1>
+    <div id="current-weather" class="weather-info">
+        <!-- Cuaca hari ini akan ditampilkan di sini -->
+    </div>
+
+    <h2>Ramalan Cuaca 7 Hari ke Depan</h2>
+    <div id="weather-forecast" class="forecast">
+        <!-- Ramalan cuaca akan ditampilkan di sini -->
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
